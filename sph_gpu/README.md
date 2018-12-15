@@ -1,2 +1,2 @@
 Makefileをmakeすることでコンパイルできます。
-Makefile内のUSE_GPUをコメントアウトすることでCPUのみのファイルでコンパイルされます。
+Makefile内のUSE_GPUをコメントアウトしてmakeすることでCPUのみを使うことができます。
