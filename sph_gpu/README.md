@@ -1,2 +1,3 @@
 Makefileをmakeすることでコンパイルできます。
 Makefile内のUSE_GPUをコメントアウトしてmakeすることでCPUのみを使うことができます。
+実行方法の例はjob.shに書いてあります。

@@ -56,8 +56,7 @@ endif
 endif
 
 ifeq ($(yamauchi), yes)
-#FDPS_DIR = /home/yamauchi/FDPS/src
-FDPS_DIR = /home/yamauchi/fdps/src
+FDPS_DIR = ../fdps/src
 CCC = mpic++
 CNN = mpicc
 FCC = mpifort
@@ -176,19 +175,19 @@ clean:
 	rm -f core
 	rm -f *.s
 	make -C heos -f Makefile.heos clean
-	make -C flash -f Makefile.local clean
+#	make -C flash -f Makefile.local clean
 	make -C nse -f Makefile.nse clean
 distclean:
 	make clean
 	rm -f *.o
 	make -C heos -f Makefile.heos distclean
-	make -C flash -f Makefile.local distclean
+#	make -C flash -f Makefile.local distclean
 	make -C nse -f Makefile.nse distclean
 allclean:
 	make distclean
 	rm -f run
 	make -C heos -f Makefile.heos allclean
-	make -C flash -f Makefile.local allclean
+#	make -C flash -f Makefile.local allclean
 	make -C nse -f Makefile.nse allclean
 
 endif
