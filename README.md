@@ -1,2 +1,3 @@
 sph_gpuにGPUコードがあります。GPUコードは.cuファイルです。
-FDPSは最新バージョンではありません。
+適当なディレクトリにFDPS(https://github.com/FDPS/FDPS)を置いてください。
+
